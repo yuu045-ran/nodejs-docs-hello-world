@@ -33,4 +33,4 @@ jobs:
         app-name: 'qing-node-s1-win-web'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_e6a1c97a03f04c598a8face47cbc2272 }}
-        package: .
+        package: ./testfolder
